@@ -1,0 +1,286 @@
+@import url("m_style.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background-color: @bg;
+}
+.cen{
+    margin: 0 auto;
+}
+.header{
+    .full(100%,41px,#cf0101);
+    .nav{
+        .full(1000px,41px,none);
+        .cen;
+        ul{
+            float: left;
+            li{
+                float: left;
+                background: url(../img/1.jpg) no-repeat left center;
+                a{
+                    padding: 0 10px;
+                    line-height: 41px;
+                }
+                #firsta{
+                    padding-left: 0;
+                }
+            }
+            li:first-child{
+                background: none;
+            }
+        }
+        dl{
+            float: left;
+            margin-left: 4px;
+            dd{
+                float: left;
+                background: url(../img/1.jpg) no-repeat left center;
+                a{
+                    padding: 0 10px;
+                    line-height: 41px;
+                }
+            }
+            dd:first-child{
+                background: none;
+            }
+        }
+        ol{
+            float: right;
+            li{
+                float: left;
+                background: url(../img/1.jpg) no-repeat left center;
+                a{
+                    padding: 0 10px;
+                    line-height: 41px;
+                }
+            }
+            li:first-child{
+                background: none;
+            }
+        }
+    }
+    .nav a{
+        color: #ffffff;
+    }
+}
+.logo{
+    .full(1000px,98px,none);
+    .cen;
+    border-bottom:1px solid #C9C9C9 ;
+    .logol{
+        .full(130px,98px,none);
+        float: left;
+    }
+    .logor{
+        .full(870px,98px,none);
+        float: right;
+        .logors{
+            .full(870px,28px,noe);
+            ul{
+                float: right;
+                border-bottom: 1px dashed #c9c9c9;
+                margin-right: 5px;
+                li{
+                    float: left;
+                    background: url(../img/4.jpg) no-repeat left center;
+                    line-height: 28px;
+                    a{
+                        padding: 0 10px;
+                        color: #cc0000;
+                    }
+                    .hei{
+                        color: #000000;
+                    }
+                }
+                li:first-child{
+                    background: none;
+                }
+            }
+        }
+        .logorx{
+            .full(870px,44px,noe);
+            margin-top: 19px;
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    line-height: 44px;
+                    margin: 0 5px;
+                    #text{
+                        .full(70px,18px,none);
+                        border: 1px solid #1d6bbe;
+                    }
+                }
+                .hong{
+                    color: #CC0000;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+.dnav{
+    .full(1000px,70px,none);
+    .cen;
+    border-bottom:1px solid #C9C9C9 ;
+    ul{
+        width: 190px;
+        float: left;
+        margin-left: 16px;
+        li{
+            float: left;
+            margin: 8px 5px;
+        }
+    }
+    .ba{
+        width:152px ;
+    }
+    .shier{
+        width:228px ;
+    }
+}
+.man{
+    .full(1000px,80px,none);
+    .cen;
+    .manl{
+        .full(500px,80px,none);
+        float: left;
+        box-sizing: border-box;
+        p{
+            height: 40px;
+            line-height:40px;
+            a{
+                padding: 0 5px;
+            }
+            .hong{
+                color: #CC0000;
+            }
+        }
+    }
+    .manl:first-child{
+        background: url(../img/7.jpg) no-repeat right center;
+    }
+}
+.guangao{
+    .full(1000px,90px,none);
+    .cen;
+}
+.lunbo{
+    .full(1000px,44px,none);
+    .cen;
+    a{
+        line-height: 44px;
+        padding: 0 5px;
+    }
+    span{
+        padding-left: 16px;
+        background: url(../img/9.jpg) no-repeat left center;
+        font-weight: bold;
+    }
+    span:last-child{
+        margin-left: 20px;
+    }
+}
+.titleheader{
+    .full(1000px,90px,none);
+    .cen;
+    background: url(../img/10.jpg)no-repeat right center;
+    border-bottom: 1px solid #C9C9C9;
+    h1{
+        width: 732px;
+        font-size: 30px;
+        text-align: center;
+    }
+    p{
+        width: 732px;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+.title{
+    .full(1000px,482px,none);
+    .cen;
+    background: url(../img/11.jpg) no-repeat right center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    h1{
+        font-size: 20px;
+        color: #990000;
+        line-height: 40px;
+    }
+    ul{
+        li{
+            padding-left: 10px;
+            line-height:30px;
+            background: url(../img/12.jpg) no-repeat left center;
+            a{
+                color: #000000;
+            }
+        }
+        
+    }
+}
+.lunbo2{
+    .full(1000px,53px,none);
+    .cen;
+}
+.main{
+    .full(1000px,444px,none);
+    .cen;
+    padding-top: 25px;
+    box-sizing: border-box;
+    .mainl{
+        float: left;
+        ul{
+            padding-left: 20px;
+            li{
+                list-style: url(../img/12.jpg);
+                line-height: 30px;
+                    span{
+                    color: #990000;
+                    }
+                }
+            li:first-child{
+                list-style: none;
+                text-transform: -2em;
+            }
+        }
+    }
+    .mainr{
+        .full(650px,444px,none);
+        float: right;
+        dl{
+            width: 206px;
+            float: left;
+            margin: 0 5px 30px 5px;
+            
+            dt{
+                height: 22px;
+                border-bottom:1px solid #C9C9C9 ;
+                a{
+                    float: left;
+                    line-height: 22px;
+                    color: #000000;
+                    font-size: 14px;
+                }
+                span{
+                    float: right;
+                    line-height: 22px;
+                    color: #999999;
+                    font-size:12px ;
+                }
+            }
+            dd{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.tu{
+    .full(1000px,90px,none);
+    .cen;
+}
